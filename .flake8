@@ -1,0 +1,10 @@
+[flake8]
+
+; ignored errors for black compatibilty:
+; W503 : line break before binary operator
+; E203 : whitespace before ':'
+ignore = W503, E203
+
+max-line-length = 100
+; exclude = tests/*
+max-complexity = 10
